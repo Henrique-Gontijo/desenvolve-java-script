@@ -1,4 +1,4 @@
-O documento "index_terminal.txt" é feito para funcionar apenas no terminal
+O documento "index_terminal.js" é feito para funcionar apenas no terminal
 idependentemente do documento "index.html"
 
 Já o documetno "index_navegador.js" é para funcionar em conjunto com o do-
