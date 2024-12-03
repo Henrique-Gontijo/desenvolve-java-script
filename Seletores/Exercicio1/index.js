@@ -1,8 +1,12 @@
+// Função para substituir textos de elementos HTML a partir do ID, ela recebe o ID e
+    // o texto a ser colocado como parâmetro
 function changeTextById(id, newText) {
     const element = document.getElementById(id);
     element.innerText = newText;
 }
 
+// Função que substitui textos de elementos a partir da tag, recebendo essa e o novo texto
+    //como parâmetros
 function changeTextByTag(tag, newText) {
     const elements = document.getElementsByTagName(tag);
 
@@ -11,6 +15,8 @@ function changeTextByTag(tag, newText) {
     }
 }
 
+// Função que adiciona uma classe para todos os elementos de uma determinada tag,
+    // recebe a tag e nome da classe a ser adicionada
 function AddClassByTag(tag, className) {
     const elements = document.getElementsByTagName(tag);
 
@@ -19,6 +25,8 @@ function AddClassByTag(tag, className) {
     }
 }
 
+// Função que muda as cores de elementos HTML a partir de sua classe, rebendo 
+    // o nome da classe e uma lista de cores para os elementos da classe
 function changeColorsByClass(className, colorsList) {
     const elements = document.getElementsByClassName(className);
 
@@ -27,6 +35,7 @@ function changeColorsByClass(className, colorsList) {
     }
 }
 
+// Execução das funções acima após um intervalo de 6 segundos
 setTimeout(() => {changeTextById("main-title", "CSS e Java Script para o HTML")}, 6000);
 
 setTimeout(() => {changeTextByTag("button", "Clique aqui para curtir a página")}, 6000);
