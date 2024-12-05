@@ -5,7 +5,7 @@
 
 /* Containers */
 html {
-    color: rgb(40, 40, 40);
+    color: rgb(80, 80, 80);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
 }
@@ -31,22 +31,13 @@ main {
 
 /* Tags */
 h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 0px;
     padding: 10px; 
 }
 
 
 /* Classes */
-/* .checkbox-tarefa {
-    margin: 10px;
-}
-
-.descricao-tarefa {
-    margin-bottom: 10px;
-    margin-left: 0px;
-    margin-right: 10px;
-    margin-top: 10px;
-} */
 
 .tarefa {
     background-color: rgb(220, 220, 220); 
@@ -69,7 +60,6 @@ h1 {
     background-color: rgb(100, 250, 100);
     text-decoration: line-through;
 }
-
 
 
 /* ID's */
