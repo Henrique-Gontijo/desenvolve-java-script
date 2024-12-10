@@ -54,6 +54,7 @@ h1 {
 
 .botao-apagar {
     background-color: rgb(255, 35, 35);
+    cursor: pointer;
     margin-bottom: auto;
     margin-top: auto;
     margin-left: auto;
@@ -98,6 +99,7 @@ h1 {
 
 #botao-adicionar:hover {
     background-color: rgb(0, 80, 0);
+    cursor: pointer;
 }
 
 #campo-descricao {

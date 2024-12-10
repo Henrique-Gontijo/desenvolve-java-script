@@ -99,9 +99,7 @@ function carregarTarefas() {
 // Adiciona envento ao botão de adicionar para que ele adicione uma nova tarefa
 botaoAdicionar.addEventListener("click", () => { 
     criaTarefa(inputDescricao.value);
-    let listaTarefas = JSON.parse(localStorage.listaTarefas);
-    const indiceTarefa = listaTarefas.length - 1;
-    addTarefaAoHTML(indiceTarefa, listaTarefas);
+    window.location.reload();
 });
 
 carregarTarefas();
