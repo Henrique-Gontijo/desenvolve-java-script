@@ -66,10 +66,6 @@ main {
     width: 30px;
 }
 
-.like-button img:hover {
-    src: "img/heart2.png";
-}
-
 .like-number {
     display: inline-block;
     height: 1.2rem;
@@ -79,6 +75,8 @@ main {
     margin-top: 2px;
 }
 
+/* Parágrafo intermediário que ocupa todo o espaço diponível a fim de 
+dar um espaço entre a data e o botão de likes */
 .middle {
     flex-basis: 100%;
 }
@@ -111,6 +109,7 @@ main {
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
+    object-fit: cover;
     max-width: 100px;
     min-width: 600px;
 }
