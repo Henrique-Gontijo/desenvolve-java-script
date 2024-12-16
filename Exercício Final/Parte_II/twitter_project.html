@@ -3,40 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="stylesheet" type="text/css" href="./twitter_project.css"> -->
+    <link rel="stylesheet" type="text/css" href="./twitter_project.css">
     <title>Twitter</title>
 </head>
 <body>
     <header>
-        <p>Publicar um novo Tweet</p>
-        <input type="text" placeholder="Escreva aqui o seu Tweet" id="tweet-field">
-        <button id="tweet-button">Tweet</button>
+        <div id="user-profile">
+        </div>
+        <div id="new-post">
+            <div class="flex">
+                <p>O que você está pensando?</p>
+                <button id="post-button">Postar</button>
+            </div>
+            <textarea id="post-field" placeholder="Escreva aqui o seu post" rows="5"></textarea>
+        </div>
+        <div id="user-options">
+            <p>Opções de Usuário</p>
+            <button id="saveUser-button">Salvar</button>
+            <input type="text" placeholder="Seu nome" id="username-field">
+            <input type="text" placeholder="Link da sua foto de perfil" id="avatar-field">
+        </div>
     </header>
     <main>
-        <div class="post">
-            <img src="https://placecats.com/poppy/50/50">
-            <strong>Poppy</strong>
+        <!--Exemplo de estrutura de post no HTML-->
+        <!-- <div class="post">
+            <div class="post-top">
+                <img src="https://placecats.com/millie/2000/1200" class="post-avatar">
+                <strong class="post-userName">Millie</strong>
+                <p class="post-date">12/12/2024 - 10:25</p>
+                <p class="middle"> </p>
+                <button class="like-button"><img src="img/heart.png"></button>
+                <p class="like-number">15</p>
+            </div>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores 
                 esse aspernatur expedita recusandae tempora numquam blanditiis eaque 
                 doloribus adipisci quod repellendus incidunt odio consequatur fugiat 
                 iusto unde maxime, amet nisi!
             </p>
-            <img src="https://fastly.picsum.photos/id/1070/600/335.jpg?hmac=KoME2HCGr8AldaJfkT0NE-8kpltMPvjvUwtaE5KYaRU">
-            <button class="like-button"><3</button> 10
-        </div>
-        <div class="post">
-            <img src="https://placecats.com/millie/50/50">
-            <strong>Millie</strong>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores 
-                esse aspernatur expedita recusandae tempora numquam blanditiis eaque 
-                doloribus adipisci quod repellendus incidunt odio consequatur fugiat 
-                iusto unde maxime, amet nisi!
-            </p>
-            <img src="https://fastly.picsum.photos/id/120/600/335.jpg?hmac=YD_vl_t5U9x1IyqQAdqKJSOPPdJKuBFSBAY2tgS1G-o">
-            <button class="like-button"><3</button> 5
-        </div>
+            <img class="post-image" src="https://cdn2.thecatapi.com/images/99k.jpg">
+        </div> -->
     </main>
     <script src="./backend.js"></script>
 </body>
